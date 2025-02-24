@@ -1,3 +1,55 @@
 header h1 {
   margin: 0.3em;
+}
+
+main p {
+  margin: 0.5em 1em;
+}
+main .characters h2 {
+  margin: 0.5em 0.5em;
+}
+main .characters ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  list-style-type: none;
+  margin: 0 1em;
+}
+main .characters ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5em;
+  background-color: gray;
+  gap: 0.5em;
+}
+main .characters ul li img {
+  border-radius: 10%;
+}
+main .characters ul li h3 {
+  color: white;
+}
+main .buttons {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+main .buttons a {
+  background-color: hotpink;
+  color: black;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 2em;
+  font-weight: bold;
+  transition: background-color 0.5s;
+}
+main .buttons a:hover {
+  background-color: pink;
+  transition: background-color 0.5s;
+}
+main .buttons a:active {
+  background-color: pink;
+  transition: background-color 0.5s;
 }/*# sourceMappingURL=serial.css.map */
