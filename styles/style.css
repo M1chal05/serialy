@@ -25,7 +25,7 @@ main a .card:hover {
   background-color: hotpink;
   transition: background-color 0.4s;
 }
-main a .card:hover {
+main a .card:active {
   background-color: hotpink;
   transition: background-color 0.4s;
 }

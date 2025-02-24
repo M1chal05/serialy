@@ -15,6 +15,7 @@ main .characters ul {
   gap: 1em;
   list-style-type: none;
   margin: 0 1em;
+  width: 100%;
 }
 main .characters ul li {
   display: flex;
@@ -23,9 +24,11 @@ main .characters ul li {
   padding: 0.5em;
   background-color: gray;
   gap: 0.5em;
+  max-width: 18em;
 }
 main .characters ul li img {
   border-radius: 10%;
+  width: 100%;
 }
 main .characters ul li h3 {
   color: white;
